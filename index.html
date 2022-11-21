@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="normalize.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css"
+		/>
 		<link rel="stylesheet" href="style.css" />
 		<title>Tennis</title>
 	</head>
 	<body>
 		<header class="header">
-			<div class="wrapper">
-				<nav class="navbar">
+			<div class="layout-container">
+				<nav class="navbar display-flex-center">
 					<div class="Logo">
-						<img src="./image/Logo.svg" alt="" />
+						<img src="./assets/icons/logo.svg" alt="" />
 					</div>
 					<div class="links">
 						<a href="#">Главная</a>
@@ -27,57 +31,60 @@
 					</div>
 					<div class="media">
 						<a href="https://www.youtube.com/" target="_blank"
-							><img src="./image/youtube.svg" alt="youtube"
+							><img src="./assets/icons/youtube.svg" alt="youtube"
 						/></a>
 						<a href="https://www.vk.com/" target="_blank"
-							><img src="./image/vk.svg" alt="vk"
-						/></a>
+							><img src="./assets/icons/vk.svg" />
+						</a>
 					</div>
 				</nav>
+			</div>
 
-				<hr />
+			<hr />
 
-				<div class="title">
+			<div class="layout-container">
+				<div class="title-container">
 					<h1>Петербургский теннисный клуб имени М.А. Пасечникова</h1>
 				</div>
 
-				<a href="#" class="link-video-about-us"
-					><img src="./image/play.svg"
-				/></a>
+				<a href="#" class="link-video-about-club">
+					<div class="video-about-club display-flex-center">
+						<img src="./assets/icons/play.svg" />
+						<p>Посмотрите видео о нашем клубе</p>
+					</div></a
+				>
 
-				<div class="cards-with-service">
+				<div class="cards-with-service display-flex-center">
 					<div class="card-with-service">
 						<div class="info">
 							<p>Услуги<br /></p>
 							<h2>Аренда корта</h2>
 						</div>
-						<div class="img"><img src="./image/link.svg" /></div>
+						<div class="img-link"><img src="./assets/icons/link.svg" /></div>
 					</div>
 					<div class="card-with-service">
 						<div class="info">
 							<p>Услуги<br /></p>
 							<h2>Детский теннис</h2>
 						</div>
-						<div class="img"><img src="./image/link.svg" /></div>
+						<div class="img-link"><img src="./assets/icons/link.svg" /></div>
 					</div>
 					<div class="card-with-service">
 						<div class="info">
 							<p>Услуги<br /></p>
 							<h2>Сборы команд</h2>
 						</div>
-						<div class="img"><img src="./image/link.svg" /></div>
+						<div class="img-link"><img src="./assets/icons/link.svg" /></div>
 					</div>
 					<div class="card-with-service">
 						<div class="info">
 							<p>Турниры</p>
 							<h2>Расписание</h2>
 						</div>
-						<div class="img"><img src="./image/link.svg" /></div>
+						<div class="img-link"><img src="./assets/icons/link.svg" /></div>
 					</div>
 				</div>
 			</div>
 		</header>
-		<main class="main"></main>
-		<footer class="footer"></footer>
 	</body>
 </html>
