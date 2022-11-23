@@ -193,23 +193,23 @@
 	font-size: 14px;
 }
 
-.info-sports-club .second-title-sports-club {
+.info-sports-club .subtitle-sports-club {
 	font-weight: 600;
 	font-size: 21px;
 	margin: 35px 0 25px;
 }
 
-.info-sports-club .unorder-list-sports-club {
+.info-sports-club .list-sports-club {
 	list-style-type: square;
 	padding-left: 20px;
 }
 
-.info-sports-club .unorder-list-sports-club .list-item-sports-club {
+.info-sports-club .list-sports-club .list-item-sports-club {
 	font-weight: 400;
 	font-size: 14px;
 }
 
-.info-sports-club .unorder-list-sports-club .list-item-sports-club::marker {
+.info-sports-club .list-sports-club .list-item-sports-club::marker {
 	color: var(--purple);
 	font-size: 20px;
 }
