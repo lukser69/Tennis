@@ -2,12 +2,16 @@
 	--white: #fff;
 	--purple: #8d86c9;
 	--light-orange: #f7ece1;
+	--black: #333;
 }
 
 * {
 	box-sizing: border-box;
 	font-family: 'Gilroy';
+	line-height: 140%;
 }
+
+
 
 .display-flex-center {
 	display: flex;
@@ -39,7 +43,6 @@
 	margin-right: 40px;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 140%;
 	color: var(--white);
 	text-decoration: none;
 }
@@ -67,7 +70,6 @@
 	color: var(--white);
 	font-weight: 700;
 	font-size: 48px;
-	line-height: 140%;
 }
 
 .link-video-about-club {
@@ -86,7 +88,6 @@
 	color: inherit;
 	font-weight: 600;
 	font-size: 18px;
-	line-height: 140%;
 	margin: 15px 0 15px 30px;
 }
 
@@ -110,14 +111,12 @@
 .card-with-service p {
 	font-weight: 600;
 	font-size: 18px;
-	line-height: 140%;
 }
 
 .card-with-service h2 {
 	display: block;
 	font-weight: 700;
 	font-size: 24px;
-	line-height: 140%;
 }
 
 .card-with-service .img-link {
@@ -141,7 +140,6 @@
 	color: var(--white);
 	font-weight: 700;
 	font-size: 27px;
-	line-height: 140%;
 	text-align: center;
 	cursor: pointer;
 }
@@ -165,4 +163,50 @@
 .card-court-3 .court-image {
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 		url(./assets/images/Cort_3.png);
+}
+
+.sports-club {
+	margin-bottom: 150px;
+}
+
+.sports-club-image {
+	width: 526px;
+	height: 514px;
+	z-index: 1;
+}
+
+.info-sports-club {
+	width: 636px;
+	height: 654px;
+	background: var(--light-orange);
+	padding: 70px 60px 0 146px;
+	margin-left: -70px;
+	color: var(--black);
+}
+
+.info-sports-club h2 {
+	font-weight: 700;
+	font-size: 36px;
+	margin: 0 0 25px;
+}
+
+.info-sports-club h4 {
+	font-weight: 600;
+	font-size: 21px;
+	margin: 35px 0 25px;
+}
+
+.info-sports-club ul {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+.info-sports-club li {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.info-sports-club li::marker {
+	color: var(--purple);
+	font-size: 20px;
 }
