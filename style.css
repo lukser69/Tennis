@@ -11,8 +11,6 @@
 	line-height: 140%;
 }
 
-
-
 .display-flex-center {
 	display: flex;
 	justify-content: center;
@@ -184,29 +182,34 @@
 	color: var(--black);
 }
 
-.info-sports-club h2 {
+.info-sports-club .title-sports-club {
 	font-weight: 700;
 	font-size: 36px;
 	margin: 0 0 25px;
 }
 
-.info-sports-club h4 {
+.info-sports-club .description-sports-club {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.info-sports-club .second-title-sports-club {
 	font-weight: 600;
 	font-size: 21px;
 	margin: 35px 0 25px;
 }
 
-.info-sports-club ul {
+.info-sports-club .unorder-list-sports-club {
 	list-style-type: square;
 	padding-left: 20px;
 }
 
-.info-sports-club li {
+.info-sports-club .list-item-sports-club {
 	font-weight: 400;
 	font-size: 14px;
 }
 
-.info-sports-club li::marker {
+.info-sports-club .list-item-sports-club::marker {
 	color: var(--purple);
 	font-size: 20px;
 }
