@@ -219,7 +219,7 @@
 	color: var(--black);
 }
 
-.header-instructors {
+.top-line-instructors {
 	justify-content: space-between;
 	margin-bottom: 75px;
 }
@@ -230,6 +230,19 @@
 	margin: 0;
 }
 
+.buttons-scroll-cards {
+	justify-content: space-between;
+	width: 105px;
+}
+
+.button-scroll {
+	width: 45px;
+	height: 45px;
+	background: var(--purple);
+	cursor: pointer;
+	border: none;
+}
+
 .cards-instructors {
 	justify-content: space-between;
 	align-items: flex-start;
@@ -237,6 +250,7 @@
 
 .card-instructor {
 	max-width: 196px;
+	margin: 0;
 	text-align: center;
 }
 
@@ -259,7 +273,7 @@
 
 .name-instructor {
 	margin-bottom: 15px;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 21px;
 }
 
