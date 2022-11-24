@@ -213,3 +213,57 @@
 	color: var(--purple);
 	font-size: 20px;
 }
+
+.instructors {
+	margin-bottom: 150px;
+	color: var(--black);
+}
+
+.header-instructors {
+	justify-content: space-between;
+	margin-bottom: 75px;
+}
+
+.title-instructors {
+	font-weight: 700;
+	font-size: 36px;
+	margin: 0;
+}
+
+.cards-instructors {
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.card-instructor {
+	max-width: 196px;
+	text-align: center;
+}
+
+.background-avatar {
+	width: 100%;
+	padding: 0 15px;
+	border: 1px solid var(--light-orange);
+	margin-bottom: 25px;
+}
+
+.avatar-instructor {
+	width: 166px;
+	height: 240px;
+}
+
+.first-name,
+.last-name {
+	margin: 0;
+}
+
+.name-instructor {
+	margin-bottom: 15px;
+	font-weight: 600;
+	font-size: 21px;
+}
+
+.description-instructor {
+	font-weight: 400;
+	font-size: 14px;
+}
