@@ -352,3 +352,47 @@
 	bottom: 30px;
 	left: 40px;
 }
+
+.footer {
+	background: var(--light-orange);
+	color: var(--black);
+	width: 100%;
+	height: 96px;
+}
+
+.footer-navbar {
+	width: 100%;
+	justify-content: space-between;
+	color: var(--black);
+}
+
+.rights {
+	font-weight: 500;
+	font-size: 14px;
+	opacity: 0.3;
+}
+
+.footer-navbar .link {
+	text-decoration: none;
+	color: var(--black);
+	font-weight: 500;
+	font-size: 14px;
+	margin-right: 40px;
+}
+
+.footer-navbar .link:last-child {
+	margin-right: 0;
+}
+
+.footer-navbar .media-link {
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+.footer-navbar .media-link:last-child {
+	margin-right: 0;
+}
+
+.footer-navbar .media-image {
+	height: 100%;
+}
